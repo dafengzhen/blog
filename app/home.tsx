@@ -11,7 +11,7 @@ interface IItem {
   backgroundImage: string;
 }
 
-export default function Index() {
+export default function Home() {
   const [items, setItems] = useState<IItem[]>([
     {
       id: 1,

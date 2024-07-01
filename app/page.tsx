@@ -1,5 +1,5 @@
-import Index from "@/app/index";
+import Home from "@/app/home";
 
-export default function Home() {
-  return <Index />;
+export default function Page() {
+  return <Home />;
 }
