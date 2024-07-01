@@ -1,24 +1,42 @@
 {
   "name": "blog",
-  "version": "0.1.0",
-  "private": true,
+  "version": "1.0.0",
+  "description": "my blog",
+  "author": "dafengzhen",
+  "license": "MIT",
   "scripts": {
-    "dev": "next dev",
+    "dev": "next dev --turbo",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "bootstrap": "^5.3.3",
+    "clsx": "^2.1.1",
+    "next": "14.2.4",
     "react": "^18",
-    "react-dom": "^18",
-    "next": "14.2.4"
+    "react-dom": "^18"
   },
   "devDependencies": {
-    "typescript": "^5",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
     "eslint": "^8",
-    "eslint-config-next": "14.2.4"
-  }
+    "eslint-config-next": "14.2.4",
+    "prettier": "^3.3.2",
+    "sass": "^1.77.6",
+    "typescript": "^5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dafengzhen/blog.git"
+  },
+  "keywords": [
+    "dafengzhen",
+    "blog"
+  ],
+  "bugs": {
+    "url": "https://github.com/dafengzhen/blog/issues"
+  },
+  "homepage": "https://github.com/dafengzhen/blog#readme"
 }
