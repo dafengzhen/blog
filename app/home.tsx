@@ -1,6 +1,5 @@
 "use client";
 
-import Link from "next/link";
 import { useState } from "react";
 
 interface IItem {
@@ -44,7 +43,7 @@ export default function Home() {
                     <div className="d-flex flex-wrap flex-lg-nowrap text-center justify-content-center align-items-center gap-4 py-3">
                       <div className="display-4 fw-semibold">
                         <em>
-                          <Link
+                          <a
                             rel="noreferrer"
                             target="_blank"
                             href={item.link}
@@ -56,7 +55,7 @@ export default function Home() {
                             className="link-offset-2 link-offset-3-hover link-underline link-underline-opacity-0 link-underline-opacity-75-hover"
                           >
                             {item.name}
-                          </Link>
+                          </a>
                         </em>
                       </div>
                       <div className="lead fw-medium">{item.desc}</div>
