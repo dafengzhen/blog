@@ -23,7 +23,7 @@ export default function Home() {
       id: 2,
       name: "Infoharvest",
       desc: "InfoHarvest is a bookmark management tool.",
-      link: "https://www.dafengzhen.cn/infoharvest",
+      link: "https://www.dafengzhen.cn/infoharvest/",
       backgroundImage: "linear-gradient(to right, #4facfe 0%, #00f2fe 100%)",
     },
   ]);
