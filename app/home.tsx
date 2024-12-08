@@ -23,8 +23,15 @@ export default function Home() {
       id: 2,
       name: "Infoharvest",
       desc: "InfoHarvest is a bookmark management tool.",
-      link: "https://www.dafengzhen.cn/infoharvest/",
+      link: "https://www.cnff.pw/infoharvest/",
       backgroundImage: "linear-gradient(to right, #4facfe 0%, #00f2fe 100%)",
+    },
+    {
+      id: 3,
+      name: "BRL",
+      desc: "BRL is a React library with Bootstrap components and utilities for faster UI development.",
+      link: "https://dafengzhen.github.io/bootstrap-react-logic",
+      backgroundImage: "linear-gradient(to right, #6a00f4 0%, #f20089 100%)",
     },
   ]);
 
