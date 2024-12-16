@@ -11,7 +11,7 @@ interface IItem {
 }
 
 export default function Home() {
-  const [items, setItems] = useState<IItem[]>([
+  const [items] = useState<IItem[]>([
     {
       id: 1,
       name: "Youdeyiwu",
@@ -36,10 +36,7 @@ export default function Home() {
   ]);
 
   return (
-    <div
-      className="min-vh-100 d-flex align-items-center"
-      style={{ background: "aliceblue" }}
-    >
+    <div className="min-vh-100 d-flex align-items-center bg-body-tertiary">
       <div className="container my-4">
         <div className="row row-cols-1 row-cols-lg-2 g-4">
           {items.map((item) => {
