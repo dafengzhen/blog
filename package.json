@@ -1,6 +1,6 @@
 {
   "name": "blog",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "my blog",
   "author": "dafengzhen",
   "license": "MIT",
@@ -11,20 +11,21 @@
     "lint": "next lint"
   },
   "dependencies": {
-    "bootstrap": "^5.3.3",
-    "clsx": "^2.1.1",
-    "next": "14.2.4",
-    "react": "^18",
-    "react-dom": "^18"
+    "bootstrap": "^5",
+    "clsx": "^2",
+    "next": "15",
+    "react": "^19",
+    "react-dom": "^19"
   },
   "devDependencies": {
-    "@types/node": "^20",
-    "@types/react": "^18",
-    "@types/react-dom": "^18",
-    "eslint": "^8",
-    "eslint-config-next": "14.2.4",
-    "prettier": "^3.3.2",
-    "sass": "^1.77.6",
+    "@types/node": "^22",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "eslint": "^9",
+    "eslint-config-next": "15",
+    "eslint-plugin-perfectionist": "^4.12.3",
+    "prettier": "^3",
+    "sass": "^1",
     "typescript": "^5"
   },
   "repository": {
