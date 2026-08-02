@@ -77,9 +77,9 @@ export default function Page() {
               <i className="bi bi-grid-3x3-gap-fill" />
             </div>
 
-            <h1 className="display-4 fw-bold mb-3"></h1>
+            {/*<h1 className="display-4 fw-bold"></h1>*/}
 
-            <p className="lead text-secondary mx-auto">
+            <p className="lead text-secondary mx-auto mt-3">
               A collection of open-source projects, developer tools and experiments.
             </p>
 
